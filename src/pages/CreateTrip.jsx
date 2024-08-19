@@ -50,7 +50,6 @@ const login = useGoogleLogin({
 
 const OnGenerateTrip =  async () => {
 
-  console.log(apiKey);
     
    const user  = localStorage.getItem('user');
 
